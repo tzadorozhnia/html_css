@@ -1,0 +1,54 @@
+body{
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    color: aliceblue;
+}
+
+h1{
+    position: fixed;
+    font-family: "Arial Black", serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFD700;
+}
+
+h2{
+    font-family: "Arial Black", serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 50%;
+    margin-left: auto;
+    text-align: left;
+    color: #FFD700;
+}
+
+
+
+
+p{
+    width: 50%;
+    margin-left: auto;
+    text-align: left;
+    font-size: 20px;
+    color: #b8b7b4;
+    margin-bottom: 40px;
+    clear: both;
+    display: flow-root;
+}
+
+span{
+   display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;"
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 150px;
+}
