@@ -1,0 +1,18 @@
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.item:hover{
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
