@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+        }
+        *{
+            margin: 0;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            /*margin: 0 10px;*/
+        }
+        .red{
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .red img {
+            width: 50%;
+        }
+        .red p {
+            /*text-align: center;*/
+        }
+        .green{
+            background-color: green;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .flex{
+            height: 100%;
+            background-color: #b8b7b4;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            flex-direction: column-reverse;
+
+        }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="box red"><p>Lorem ipsum.</p> <img src="https://waapple.org/wp-content/uploads/2021/06/Variety_Cosmic-Crisp-transparent-658x677.png" alt=""></div>
+    <div class="box yellow"></div>
+    <div class="box green"></div>
+</div>
+</body>
+</html>
