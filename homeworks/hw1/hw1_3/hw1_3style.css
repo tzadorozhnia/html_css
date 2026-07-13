@@ -5,9 +5,22 @@ body{
     background-position: center;
 }
 
-p,h2{
+p,h1{
     background-color: rgba(247, 240, 237, 0.9);
     width: 60%;
     padding: 15px;
     margin: 25px 50px;
+}
+
+h1{
+    font-size: 24px;
+}
+
+.first-paragraph {
+    margin-bottom: 0;
+    padding-bottom: 2px;
+}
+
+.second-paragraph {
+    margin-top: 0;
 }
