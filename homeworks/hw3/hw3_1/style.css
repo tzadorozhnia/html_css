@@ -1,0 +1,42 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70vh;
+    background-color: #2a4775;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+main{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+main div{
+    background-color: #648fd5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+address{
+    height: 90vh;
+    background-color: #2a4775;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
