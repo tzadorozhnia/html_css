@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: #000;
+}
+
+header{
+    background-color: #8D8484;
+}
+
+footer{
+    background-color: #BDBDBD;
+}
+
+main{
+    height: 60vh;
+    background-color: #A4A4A4;
+    display: flex;
+}
+
+section{
+    width: 73vw;
+    display: flex;
+    flex-direction: column;
+}
+
+section div{
+    height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;;
+    font-weight: 400;
+    font-size: 45px;
+    color: #fff;
+}
+.div_section_top{
+    background-color: #776969;
+}
+.div_section_center{
+    background-color: #643030;
+}
+
+.div_section_down{
+    background-color: #441818;
+}
+
+aside{
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+}
+
+aside div {
+    height: 54vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: #fff;
+}
+.div_Spam_1{
+    background-color: #937575;
+}
+
+.div_Spam_2{
+    background-color: #644C4C;
+}

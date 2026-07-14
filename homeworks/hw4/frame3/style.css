@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #d9d9d9;
+    height: 5vh;
+}
+
+.contacts-section{
+    background-color: #d9d9d9;
+    height: 10vh;
+}
+
+footer{
+    background-color: #afa9a9;
+    height: 12vh;
+}
+
+main{
+    width: 100%;
+    height: 73vh;
+    display: flex;
+}
+
+.main-section{
+    background-color: #a4a4a4;
+    width: 59vw;
+}
+
+.sidebar{
+    width: 40vw;
+}
+
+.right-top{
+    background-color: #7f7a7a;
+    height: 54%;
+}
+.right-bottom{
+    background-color: #615050;
+    height: 46%;
+}
