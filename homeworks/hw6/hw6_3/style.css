@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* -------------------------- */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+}
+
+/* -------------------------- */
+.auth-card {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    padding: 10px 40px 20px 40px;
+}
+
+.auth-header {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.auth-header h1 {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* -------------------------- */
+#login, #password {
+    width: 100%;
+    padding: 9px 8px;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #262626;
+}
+
+/* -------------------------- */
+.submit-btn {
+    margin-top: 8px;
+    padding: 7px 0;
+    background-color: #4cb5f9;
+    border: 0;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #737373;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* -------------------------- */
+.fb-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.fb-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.fb-login i {
+    color: #385185;
+}
+
+/* -------------------------- */
+.forgot-password {
+    display: block;
+    text-align: center;
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.signup-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    font-size: 14px;
+    color: #262626;
+}
+
+.signup-card a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 600;
+}
