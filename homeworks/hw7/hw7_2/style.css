@@ -1,78 +1,94 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #24204a;
     font-family: "Inter", sans-serif;
+    height: 100vh;
 }
 
-
-header {
-    width: 100%;
-    height: 113px;
-    background-color: #24204a;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    position: fixed;
-    top: 0;
-}
-
-.header-box{
+.container{
     width: 1153px;
     height: 100%;
     margin: 0 auto;
+}
+
+header{
+    height: 113px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #24204a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header_content{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
-.logo {
+.logo{
     font-weight: 700;
     font-size: 20px;
     color: #e5e5e5;
     opacity: 0.6;
 }
 
-.nav-links {
-    list-style: none;
+.menu{
     display: flex;
-    gap: 63px;
-    margin: 0;
-    padding: 0;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
     opacity: 0.6;
 }
 
-.nav-links a {
-    color: #b3b0cb;
-    text-decoration: none;
-    font-size: 14px;
-    transition: color 0.3s;
+main{
+    padding: 130px 0 0 0;
 }
-
-.top-section{
-    padding: 180px 0 101px 0;
-    width: 1153px;
+.hero{
+    padding: 60px;
+}
+.hero__content{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    align-items: center;
-    height: 100%;
 }
 
-.top-content{
+.hero__img{
+    border-radius: 8px;
+    width: 375px;
+    height: 411px;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+    background: #827eac;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__img img{
+    height: 318px;
+}
+
+.hero__text{
     width: 570px;
     height: 366px;
-    box-sizing: border-box;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-.button-one-posotion{
+.hero__button__first{
     border-radius: 8px;
     width: 145px;
     height: 41px;
@@ -84,25 +100,7 @@ header {
     color: #8e88c1;
 }
 
-
-.top-content h1{
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 0.05em;
-    color: #fff;
-    width: 261px;
-}
-
-.top-content p{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 130%;
-    letter-spacing: 0.05em;
-    color: #8e88c1;
-    width: 550px;
-}
-
-.button-about{
+.hero__button__second{
     border-radius: 8px;
     width: 200px;
     height: 56px;
@@ -114,86 +112,74 @@ header {
     color: #fff;
 }
 
-.card-bg{
-    background-color: #827eac;
-    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    width: 375px;
-    height: 411px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hero__text h1{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    width: 261px;
+}
+.hero__text p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    color: #8e88c1;
+    width: 550px;
 }
 
-.card-image{
-    height: 318px;
-}
-
-.center-section{
-    background: #071341;
-    width: 100%;
-    height: 764px;
-    padding: 50px 0 152px 0;
-    box-sizing: border-box;
-}
-
-.center-section-bloc{
-    width: 1153px;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-}
-.center-section-icons{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.item {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-}
-
-.top-icon{
+.box{
     border-radius: 8px;
     width: 56px;
     height: 56px;
+    background: #ff6853;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 18px;
+    justify-content: center;
 }
 
-.icon-coral{
+.box-coral{
     background: #ff6853;
 }
 
-.icon-pinc{
+.box-pinc{
     background: #ff537c;
 }
-.icon-turquoise{
+.box-turquoise{
     background: #80d2c4;
 }
-.icon-blue{
+.box-blue{
     background: #3f50e7;
 }
-.icon-green{
+.box-green{
     background: #95cb7c;
 }
 
-.item h3 {
+
+.box__content{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.content_herder_boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    padding: 50px 0;
+    height: 764px ;
+    background-color: #071341;;
+}
+
+.box__content h2{
     font-weight: 700;
     font-size: 16px;
     color: #fff;
 }
 
-.item p {
+.box__content p{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -201,73 +187,63 @@ header {
     color: #8e88c1;
 }
 
-.center-section-bloc h4{
+.content h3{
     font-weight: 700;
     font-size: 36px;
     line-height: 117%;
     text-align: center;
     color: #fff;
+    text-align: center;
     width: 1074px;
-    margin: 50px 0;
 }
 
-.center-section-bloc p{
+.content p{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.05em;
     text-align: center;
     color: #8e88c1;
+    text-align: center;
 }
 
-.center-section-bottom{
-    width: 100%;
+.content_wrapper{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 0 152px 0;}
+    flex-direction: column;
+    gap: 50px;
+}
 
-.center-section-bottom-card {
+.box__footer{
     border: 2px solid #8e88c1;
     border-radius: 8px;
     width: 209px;
     height: 206px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 26px;
-    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content_footer_boxes{
+    display: flex;
+    justify-content: space-between;
 
 }
 
-.center-section-bottom-card p {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 125%;
-    letter-spacing: 0.05em;
-    color: #8e88c1;
-}
 iframe{
+    border: none;
     width: 100%;
     height: 664px;
-    display: block;
 }
+
 footer{
     height: 94px;
-    width: 100%;
-    background: #071341;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-footer p{
-    color: #FFF;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 200%;
-}
-
-
