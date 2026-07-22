@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+    .cards{
+
+        width: 100%;
+        gap: 5px;
+        padding: 10px;
+
+    }
+    .card{
+        width: 100%;
+
+    }
+}
